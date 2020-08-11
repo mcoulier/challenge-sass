@@ -64,12 +64,12 @@ article {
     word-wrap: break-word
   }
 
-  &before {
+  &.before {
     float: left;
     width: 40%;
   }
 
-  &after {
+  &.after {
     float: right;
     width: 40%;
   }
