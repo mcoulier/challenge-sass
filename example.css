@@ -37,12 +37,10 @@ article section {
   overflow: auto;
   box-sizing: border-box;
 }
-
 article section#selling-points {
   flex-grow: 2;
   flex-basis: 100%;
 }
-
 article code {
   background: #000;
   border: 1px solid #ddd;
@@ -58,52 +56,40 @@ article code {
   display: block;
   word-wrap: break-word;
 }
-
 article code.before {
   float: left;
   width: 40%;
 }
-
 article code.after {
   float: right;
   width: 40%;
 }
-
-h1 {
+article h1 {
   text-align: center;
 }
-
-h6 {
+article h6 {
   text-align: center;
   font-size: 2em;
   padding: 16px;
   margin-bottom: 0px;
 }
-
-.warning, .error, .success {
+article article, article .error, article .success {
   border: 1px solid #ccc;
   padding: 8px;
   background-color: #000;
   width: 100%;
 }
-
-.message, .success, .error, .warning {
+article .message, article .success, article .error, article .warning {
   border: 1px solid #ccc;
   padding: 8px;
   background-color: #000;
   width: 100%;
 }
-
-.success {
+article .success {
   background-color: green;
 }
-
-.error {
+article .error {
   background-color: red;
-}
-
-.warning {
-  background-color: orange;
 }
 
 /*# sourceMappingURL=example.css.map */
